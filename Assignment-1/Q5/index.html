@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0 2px 0;
+        }
+
+        .top-p {
+            padding: 20px 0;
+        }
+
+        table {
+            width: 25%;
+        }
+
+        th {
+            text-align: left;
+            font-size: 20px;
+            font-weight: 800;
+
+        }
+
+        tr,
+        p,
+        label,
+        .form_input {
+            font: 16px;
+            font-weight: 600;
+        }
+
+        form {
+            width: 25%;
+            padding: 20px 0;
+            gap: 5px;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .form_input {
+            float: right;
+            height: 20PX;
+            width: 200PX;
+        }
+
+        li {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .sub_list {
+            padding-left: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="./image1.png">
+    <div>
+        <p class="top-p">
+            We will be learning the following things this Week:
+        <table>
+            <tr>
+                <th>Day 1</th>
+                <th>Day 2</th>
+                <th>Day 3</th>
+                <th>Day 4</th>
+            </tr>
+            <tr>
+                <td>Linux 1</td>
+                <td>HTML</td>
+                <td>Lin30ux 2</td>
+                <td>Linux 3</td>
+            </tr>
+            <tr>
+                <td>Git 1</td>
+                <td>CSS</td>
+                <td>Git 2</td>
+                <td>Bootstrap</td>
+            </tr>
+        </table>
+    </div>
+    </p>
+    <form>
+        <p>If you want to connect me, please fill the form:</p>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form_input">
+        </div>
+        <div>
+            <label for="phone_no">Phone no:</label>
+            <input type="text" id="phone_no" class="form_input">
+        </div>
+        <div>
+            <label for="email_id">email id:</label>
+            <input type="text" id="email_id" class="form_input">
+        </div>
+    </form>
+
+    <div>
+        <h2>The following things are important to be a programmer</h2>
+        <ul style="padding-left: 50px;">
+            <li>A problem solving mindset</li>
+            <li>Consistency
+                <ul class="sub_list">
+                    <li>clean code</li>
+                    <li>Thorough knowledge of core concepts</li>
+                    <li>Readable Code</li>
+                </ul>
+            </li>
+            <li>Speed</li>
+        </ul>
+
+    </div>
+</body>
+
+</html>
