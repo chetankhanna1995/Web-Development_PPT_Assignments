@@ -1,0 +1,44 @@
+* {
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+table>tr {
+    gap: 50px;
+}
+
+tr {
+    gap: 100px;
+}
+
+.pink_box {
+    background-color: #ff9999;
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    text-align: center;
+}
+
+.yellow_box {
+    background-color: #fdff8c;
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    text-align: center;
+}
+
+.blue_box {
+    background-color: #99ccff;
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    text-align: center;
+}
+
+.green_box {
+    background-color: #9bff99;
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    text-align: center;
+}

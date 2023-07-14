@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>img {
+    height: 100px;
+    width: 100px;
+}
+
+.nav-items {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+
+.hero-Section img {
+    max-width: 100%;
+
+}
+
+.fetures-card {
+    max-width: 100%;
+    margin: 10px 40px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.card {
+
+    border: 2px solid;
+    padding: 10px;
+}
+
+footer {
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+
+@media screen and (max-width:768px) {
+    .fetures-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:670px) {
+    nav {
+        margin-top: 10px;
+    }
+
+    .nav-items {
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type: none;
+        font-family: cursive;
+        font-size: 20px;
+    }
+
+}
